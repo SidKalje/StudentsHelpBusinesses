@@ -1,0 +1,115 @@
+.Listing {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-color: aqua;
+  border-width: 5px;
+  border-style: none;
+  position: absolute;
+  top: 0px;
+  right: 1px;
+  bottom: 0px;
+  left: 0px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  padding-left: 500px;
+  padding-right: 500px;
+  max-height: 95vh; /* Maximum height is 100% of the viewport height */
+  overflow-y: auto; /* Enable scrolling within the container if it's too tall */
+}
+
+html,
+body {
+  height: 100%;
+  background-color: rgb(176, 224, 230);
+}
+
+.AboutCreateListing {
+  display: flex;
+  justify-content: left;
+  justify-content: top;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 50px;
+  flex: 1;
+  flex-direction: column;
+  height: 100%;
+  border-color: red;
+  border-width: 5px;
+  border-style: none;
+}
+
+.AboutListingRole {
+  display: flex;
+  justify-content: top;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 50px;
+  flex-direction: column;
+
+  flex: 1;
+  height: 100%;
+  border-color: red;
+  border-width: 5px;
+  border-style: none;
+}
+
+.category-dropdown {
+  margin-top: 20px;
+}
+
+.titleNames {
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+}
+.lightblue-dropdown .dropdown-toggle {
+  background-color: lightblue !important;
+  color: black !important;
+  border-color: lightblue !important;
+}
+
+.lightblue-dropdown .dropdown-toggle:hover {
+  background-color: #add8e6 !important;
+  color: black !important;
+  border-color: #add8e6 !important;
+}
+
+.lightblue-button {
+  background-color: lightblue !important;
+  color: black !important;
+  border-color: lightblue !important;
+}
+
+.lightblue-button:hover,
+.lightblue-button:active,
+.lightblue-button:focus {
+  background-color: #add8e6 !important;
+  color: black !important;
+  border-color: #add8e6 !important;
+}
+
+.custom-file-upload {
+  padding: 10px;
+  border: 1px solid #ccc;
+  display: inline-block;
+  cursor: pointer;
+  background-color: lightblue;
+  color: black;
+}
+
+.custom-file-upload:hover {
+  background-color: #add8e6;
+  border-color: #add8e6;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="file"],
+textarea {
+  border-color: lightblue !important;
+  border-width: 2px !important;
+}

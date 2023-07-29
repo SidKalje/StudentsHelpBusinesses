@@ -1,0 +1,111 @@
+.body {
+  background-color: white;
+}
+.homePage {
+  display: flex;
+  background-color: white;
+  height: 100vh;
+  margin-top: 100px;
+}
+
+.sidebar {
+  border-style: solid;
+  border-color: #b0e0e6;
+  border-width: 4px;
+  padding: 20px;
+  padding-top: 0;
+  position: fixed;
+  left: 50px;
+  top: 100px;
+  bottom: 100px;
+  width: 300px; /* or the width you desire for the sidebar */
+  overflow: auto;
+}
+
+.sidebar-title {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 40px;
+  color: #41b1bf;
+  padding-top: 20px;
+  margin: 0;
+}
+
+.listings {
+  padding: 20px;
+  height: 90vh;
+  margin-left: 320px; /* Adjust based on the width of the sidebar plus a little extra for spacing */
+  position: fixed;
+  right: 300px;
+  left: 300px;
+  bottom: 20px;
+  overflow: auto;
+}
+
+.categories-form {
+  margin-top: 50px;
+}
+
+.category {
+  margin-top: 20px;
+  color: black;
+  border-color: #41b1bf;
+}
+
+.jobtitles {
+  color: #41b1bf;
+}
+
+.job-listing {
+  justify-content: space-between;
+  align-items: start;
+  position: relative;
+}
+
+.star {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 10px; /* adjust as needed */
+  margin-right: 50px;
+  margin-top: 50px;
+}
+
+.listingBasicInfo {
+  font-weight: normal;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.listingImg {
+  width: 200px;
+  border-style: solid;
+  border-color: rgb(176, 215, 230);
+  border-width: 2px;
+  margin: 0;
+  padding: 0;
+}
+
+.jobdesc {
+  width: 100%; /* Set a width that fits your design */
+  max-height: 150px; /* Set a max height to control the size of the box */
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.jobdesc p {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.job-card {
+  border-color: rgb(
+    176,
+    215,
+    230
+  ) !important; /* replace 'red' with your desired color */
+  border-style: solid;
+  border-width: 4px !important;
+  border-radius: 0 !important;
+}

@@ -1,0 +1,4 @@
+.listings {
+  display: flex;
+  flex-direction: column;
+}

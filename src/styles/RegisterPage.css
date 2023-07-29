@@ -1,0 +1,11 @@
+.sbselector {
+  margin-bottom: 20px;
+  width: 200px;
+}
+
+.middleHolder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

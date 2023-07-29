@@ -1,0 +1,9 @@
+.about {
+  display: flex;
+  margin-top: 300px;
+  flex-direction: column;
+}
+
+#aboutus {
+  margin-bottom: 50px;
+}
