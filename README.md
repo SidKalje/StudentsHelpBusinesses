@@ -24,3 +24,13 @@ With this project, I learned to connect a react.js frontend to a express js back
 
 ## What's next for StudentsHelpBusinesses
 Next, I would like to integrate direct messaging between businesses and students, and also have more options for the user's profile, such as more detailed information about them.
+
+To run:
+
+Fork the repo and clone it. Initialize npm with the command:
+
+npm init
+
+Then, install vite, react-boostrap, and firebase with npm. Navigate to the server directory, and install nodemailer, cors, body-parser, and express.
+
+In the main directory, start the project with npm run dev. Navigate to the server directory, and start the server with npm run dev.
