@@ -20,8 +20,7 @@ Im proud of being able to learn so much in such a short time.
 
 ## What we learned
 
-Before this project, I had little to no experience with react.js, and had only coded in python before. This project allowed me to step out of my comfort zone and develop an application on my own.
+With this project, I learned to connect a react.js frontend to a express js backend, and also use firebase and cloud firestore for their authentication and database capabilities. I also learned how to send email notifications, and attach attachments to them. I learned a lot about state management in react too, and different hooks in react.
 
 ## What's next for StudentsHelpBusinesses
-
-In the future, I would like to add app-to-user notifications, as well as an option to apply directly through the app.
+Next, I would like to integrate direct messaging between businesses and students, and also have more options for the user's profile, such as more detailed information about them.
